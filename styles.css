@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    width: 100%;
+    background: #03182e;
+    height: 50px;
+}
+
+header .navBar .navLinks ul{
+    display: inline-flex;
+
+}
+header .navBar .navLinks ul li {
+    padding: 15px;
+}
+
+header .navBar .navLinks ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    padding: 5px;
+
+}
+.bi{
+    color: white;
+
+}
+
+
+/*.container header{
+    margin: 0;
+    padding: 0;
+}
+header{
+    align-content: center;
+    margin: 0;
+    padding: 0  ;
+    /background: blue;
+    width: auto;
+    height: auto;
+}
+header .navBar .navLinks ul{
+    padding: 0;
+    list-style-type:none ;
+    display: inline-flex;
+    align-items: center;
+
+}
+header .navBar .navLinks{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+.navBar{
+    margin: 5px;
+    height: 20px;
+    width: auto;
+    /background: red;
+}
+.navBar .navLinks ul li{
+    margin: 0px 20px;
+}
+
+
+
+
+
+
+
+.container {
+    max-width: 100%;
+    margin-right:400px;
+    padding: 20px;
+    background-color: white;
+}
+
+
+
+
+/* .title {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #666;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bio {
+    flex: 3;
+    margin-right: 50px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
+
+.photo p {
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.info p {
+    margin: 10px 0;
+}
+
+.info a {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+*/
