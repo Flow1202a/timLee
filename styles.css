@@ -78,6 +78,7 @@ h2 {
 .content {
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
 }
 
 .bio {
@@ -153,5 +154,59 @@ h2 {
     justify-content: flex-end;
 }
 
+.navBar .menuHamburger{
+    display: none;
+    width: 30px;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
 
+
+@media  screen and (max-width: 1000px) {
+    .navBar .britanicaLogo{
+        display: flex;
+        justify-content: center;
+    }
+    .britanicaLogo{
+        padding-top: 13px;
+        color: #f4f4f4;
+    }
+    .navBar .menuHamburger{
+        display: block;
+    }
+
+    .navBar .navLinks ul{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navLinks{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(239, 251, 246, 0.44);
+        backdrop-filter: blur(9px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+    .navLinks.mobile-menu{
+            margin-left: 0;
+    }
+
+    .container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .content{
+        display: inline;
+        width: 90%;
+    }
+}
 

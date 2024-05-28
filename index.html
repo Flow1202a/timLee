@@ -11,8 +11,9 @@
 </head>
 <body>
 
-    <header>
+  <header>
         <div class="navBar">
+            <p class="britanicaLogo"><i class="bi bi-cake">Britannica</i></p>
             <div class="navLinks">
                 <ul>
                     <li><i class="bi bi-cake"><a href="#">Britannica</a></i></li>
@@ -23,6 +24,7 @@
                     <li><a href="#">Money</a></li>
                 </ul>
             </div>
+            <img src="images/menu-btn.png" alt="menu hamburger" class="menuHamburger">
         </div>
     </header>
 
@@ -47,16 +49,6 @@
         <p class="By">By <a href="#">Michael Dennis</a> Last update : Dec 2, 2022 <a href="#">Edit History</a> </p>
 
         <div class="content">
-
-            <div class="bio">
-                <p><strong>Tim Berners-Lee</strong>, in full <strong>Sir Tim Berners-Lee</strong>, (born June 8, 1955, London, England), British computer scientist, generally <a href="#">credited</a> as the inventor
-                    of the <a href="#">World Wide Web</a>. In 2004 he was awarded a knighthood by Queen Elizabeth II of the United Kingdom and the inaugural Millennium Technology Prize (€1 million) by the Finnish Technology Award Foundation.</p>
-                <p>Computing came naturally to Berners-Lee, as both of his parents worked on the <a href="#">Ferranti Mark I</a>, the first commercial computer.
-                    (See computer: The first stored-program machines.) After graduating in 1976 from the <a href="#">University of Oxford</a>,
-                    Berners-Lee designed computer software for two years at Plessey Telecommunications Ltd., located in Poole, Dorset, England. Following this,
-                    he had several positions in the computer industry, including a stint from June to December 1980 as a software engineering consultant at <a href="#">CERN</a>,
-                    the European particle physics laboratory in Geneva.</p>
-            </div>
             <div class="sidebar">
                 <div class="photo">
                     <img src="/images/tim_berners_lee.jpg" alt="Tim Berners-Lee">
@@ -73,8 +65,27 @@
                     <a href="#">See all related content →</a>
                 </div>
             </div>
+            <div class="bio">
+                <p><strong>Tim Berners-Lee</strong>, in full <strong>Sir Tim Berners-Lee</strong>, (born June 8, 1955, London, England), British computer scientist, generally <a href="#">credited</a> as the inventor
+                    of the <a href="#">World Wide Web</a>. In 2004 he was awarded a knighthood by Queen Elizabeth II of the United Kingdom and the inaugural Millennium Technology Prize (€1 million) by the Finnish Technology Award Foundation.</p>
+                <p>Computing came naturally to Berners-Lee, as both of his parents worked on the <a href="#">Ferranti Mark I</a>, the first commercial computer.
+                    (See computer: The first stored-program machines.) After graduating in 1976 from the <a href="#">University of Oxford</a>,
+                    Berners-Lee designed computer software for two years at Plessey Telecommunications Ltd., located in Poole, Dorset, England. Following this,
+                    he had several positions in the computer industry, including a stint from June to December 1980 as a software engineering consultant at <a href="#">CERN</a>,
+                    the European particle physics laboratory in Geneva.</p>
+            </div>
+
         </div>
     </main>
 </div>
 </body>
+<script>
+    const menuHamburger = document.querySelector(".menuHamburger")
+    const navLinks = document.querySelector(".navLinks")
+
+    menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+
 </html>
