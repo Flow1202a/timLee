@@ -161,6 +161,9 @@ h2 {
     top: 13px;
     left: 10px;
 }
+.navBar .britanicaLogo{
+    display: none;
+}
 
 
 @media  screen and (max-width: 1000px) {
