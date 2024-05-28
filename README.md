@@ -14,5 +14,5 @@ Bonne journée a toi Mike
 
 à demain ![mon gif](https://giphy.com/gifs/arrested-development-michael-cera-george-bluth-3oEjHGr1Fhz0kyv8Ig)
 
-image::[https://giphy.com/embed/3oEjHGr1Fhz0kyv8Ig[]
+image::https://giphy.com/embed/3oEjHGr1Fhz0kyv8Ig[]
 
