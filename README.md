@@ -12,4 +12,4 @@ voici [ma page](https://flow1202a.github.io/timLee/)
 
 Bonne journée a toi Mike 
 
-[A demain !](https://giphy.com/embed/3oEjHGr1Fhz0kyv8Ig)
+à demain (https://giphy.com/embed/3oEjHGr1Fhz0kyv8Ig)
